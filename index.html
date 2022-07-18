@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 760px)" href="css/mobile.css">
     <title>IT Solutions</title>
 </head>
 <body>
     <nav id="navbar">
         <div id="navbar-container">
-            <h1 class="logo">Review Analytics</h1>
-            <ul id="navbar-items"></ul>
-            <li>Início</li>
-            <li>Sobre</li>
-            <li>Galeria</li>
+            <h1 class="logo">IT Solutions</h1>
+            <ul id="navbar-items">
+               <li><a href="#showcase">Início</a></li>
+               <li><a href="#clients">Sobre</a></li>
+               <li><a href="#gallery">Galeria</a></li>
+
+            </ul>
+           
         </div>
 
     </nav>
@@ -22,13 +27,13 @@
         <div id="showcase-container">
             <h2>Lorem ipsum dolor sit amet.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, quidem.</p>
-            <a href="" class="btn"></a>
+            <a href="" class="btn">Saiba mais</a>
         </div>
     </header>
 
     <section id="clients">
         <div class="headline">Nossos Clientes</div>
-        <div class="clients-container">
+        <div id="clients-container">
             <img src="/img/microsoft.png" class="client" alt="">
             <img src="/img/apple.png" class="client" alt="">
             <img src="/img/google.png" class="client" alt="">
@@ -43,7 +48,7 @@
             <div class="feature">
                <i class="fas fa-tachometer-alt fa-3x"></i>
                
-               <span class="features-title"></span>
+               <span class="features-title">Lorem ipsum dolor sit amet.</span>
 
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis maxime dolorem optio commodi neque libero?</p>
                  
@@ -85,7 +90,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt placeat, consectetur ratione iusto optio maxime!</p>
                 </div>
                 <div class="item">
-                    <i class="fas fa-solid fa-book-medical"></i>
+                    <i class="fas fa-book-open fa-2x"></i>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt placeat, consectetur ratione iusto optio maxime!</p>
                 </div>
             </div>
@@ -94,9 +99,38 @@
 
     </section>
 
+    <div id="testiomonials">
+        <div class="headline">O que acham de nós</div>
+        <div id="testimonials-container"></div>
+        <div class="testimonial">
+            <img src="/img/person-1.jpeg" alt="" class="testimonial-image">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ullam rem explicabo nam ab necessitatibus suscipit quos nostrum expedita deserunt.</p>          
+            <div class="testimonial">
+                <img src="/img/person-2.jpeg" alt="" class="testimonial-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ullam rem explicabo nam ab necessitatibus suscipit quos nostrum expedita deserunt.</p>          
+        </div>
+        </div>
+    
+    </div>
+
+    <section id="gallery">
+        <div class="headline">Galeria</div>
+        <div id="gallery-container">
+           <img src="/img/image-1.jpeg" alt="" class="gallery-image">
+           <img src="/img/image-2.jpeg" alt="" class="gallery-image">
+           <img src="/img/image-3.jpeg" alt="" class="gallery-image">
+           <img src="/img/image-4.jpeg" alt="" class="gallery-image">
+           <img src="/img/image-5.jpeg" alt="" class="gallery-image">
+           <img src="/img/image-6.jpeg" alt="" class="gallery-image">
+    </section>
+    <footer id="footer">
+        <p>Copyright 2022 - Todos os direitos reservados</p>
+        <p>Feito por IT Solutions</p>
+    </footer>
 
 
-     <!-- Fonte Awesome  -->
+
+    <!-- Fonte Awesome  -->
 
     <script src="https://kit.fontawesome.com/f9183394e9.js" crossorigin="anonymous"></script>
 
